@@ -1,0 +1,52 @@
+:root {
+  /* 标题 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    135deg,
+    #90f7ec 10%,
+    #32ccbc 100%
+  );
+
+  /* 图标背景 */
+  --vp-home-hero-image-background-image: linear-gradient(
+    135deg,
+    #90f7ec 10%,
+    #32ccbc 100%
+  );
+  --vp-home-hero-image-filter: blur(150px);
+
+  /* brand按钮 */
+  --vp-button-brand-border: #90f7ec;
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-bg: #32ccbc;
+
+  --vp-button-brand-hover-border: #90f7ec;
+  --vp-button-brand-hover-text: #4b4949;
+  --vp-button-brand-hover-bg: #90f7ec;
+
+  --vp-button-brand-active-border: #f6ceec;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px);
+  }
+}
+
+.image-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  width: 192px;
+  height: 192px;
+  background-image: var(--vp-home-hero-image-background-image);
+  filter: var(--vp-home-hero-image-filter);
+  transform: translate(-50%, -50%);
+}
