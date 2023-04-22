@@ -20,6 +20,9 @@ hero:
     - theme: alt
       text: 面试题
       link: "https://www.baidu.com/"
+    - theme: alt
+      text: 面试题
+      link: "https://www.baidu.com/"
 features:
   - icon: 📋
     title: HTML
@@ -28,6 +31,11 @@ features:
     linkText: 开始阅读
   - icon: 📋
     title: CSS
+    details: 海量前端面试问题解答，一站式阅读体验。
+    link: /interview/
+    linkText: 开始阅读
+  - icon: 📋
+    title: JavsSscript
     details: 海量前端面试问题解答，一站式阅读体验。
     link: /interview/
     linkText: 开始阅读
