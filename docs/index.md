@@ -4,7 +4,7 @@ layout: home
 title: 小代同学
 titleTemplate: 掘金小册阅读
 hero:
-  name: 前端学习
+  name: 安全学习
   # text: "Front-end learning"
   tagline: "内容网站，包括学习路线、知识体系"
   image:
