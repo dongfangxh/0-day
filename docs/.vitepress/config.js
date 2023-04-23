@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 import sidebar from "./sidebar";
 
 export default defineConfig({
-  title: "切1111",
+  title: "0-day",
   description: "掘金",
   themeConfig: {
     // 网站loggo
